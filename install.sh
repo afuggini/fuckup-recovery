@@ -11,6 +11,9 @@ echo "Install NodeJS, then press ENTER to continue..."; read dummy;
 echo "Installing Meteor..."
 curl https://install.meteor.com/ | sh
 
+echo "Installing Node modules..."
+npm install -g nodemon gulp grunt mup iron-meteor
+
 echo "Installing Homebrew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 

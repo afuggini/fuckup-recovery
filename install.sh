@@ -1,24 +1,13 @@
 #!/bin/bash
 
-echo "Downloading NodeJS..."
-mkdir ~/Downloads/"Fuckup Recovery"
-cd ~/Downloads/"Fuckup Recovery"
-curl -O https://nodejs.org/dist/v6.11.3/node-v6.11.3.pkg
-
-open node-v6.11.3.pkg
-echo "Install NodeJS, then press ENTER to continue..."; read dummy;
-
-echo "Installing Meteor..."
-curl https://install.meteor.com/ | sh
-
-echo "Installing Node modules..."
-npm install -g nodemon gulp grunt mup iron-meteor
-
 echo "Installing Homebrew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Updating Homebrew..."
 brew update
+
+echo "Installing NodeJS..."
+brew install node
 
 echo "Installing AWS CLI..."
 brew install awscli awsebcli
@@ -31,6 +20,12 @@ chmod 777 /data/db
 echo "Installing Redis..."
 brew install redis
 ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+
+echo "Installing Meteor..."
+curl https://install.meteor.com/ | sh
+
+echo "Installing Node modules..."
+npm install -g nodemon gulp grunt mup iron-meteor
 
 echo "Downloading required software..."
 curl -O https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg

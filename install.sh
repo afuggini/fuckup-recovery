@@ -13,7 +13,7 @@ echo "Installing Applications..."
 brew cask install google-chrome firefox
 
 echo "Installing Work stack..."
-brew cask install iterm2 atom hubstaff slack sourcetree robo-3t
+brew cask install iterm2 atom hubstaff slack sourcetree robo-3t docker
 
 echo "Installing Communication Apps..."
 brew cask install screenhero zoomus skype

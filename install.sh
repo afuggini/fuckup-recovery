@@ -48,7 +48,7 @@ echo "Installing Adobe Software..."
 brew cask install adobe-acrobat-pro adobe-illustrator-cc adobe-photoshop-cc
 
 echo "Installing additional apps..."
-brew cask install dropbox appdelete sketch skitch vlc
+brew cask install dropbox appdelete sketch skitch vlc franz
 
 echo "Downloading required software..."
 curl -O https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg

@@ -13,10 +13,10 @@ echo "Installing Applications..."
 brew cask install google-chrome firefox
 
 echo "Installing Work stack..."
-brew cask install iterm2 atom hubstaff slack sourcetree robo-3t docker
+brew cask install iterm2 hubstaff slack sourcetree robo-3t docker visual-studio-code
 
 echo "Installing Communication Apps..."
-brew cask install screenhero zoomus skype
+brew cask install zoomus skype
 
 echo "Installing Atom packages..."
 apm install atom-beautify color-picker emmet es6-javascript file-icons jshint language-babel linter linter-eslint merge-conflicts minimap monokai prettier-atom seti-icons wakatime

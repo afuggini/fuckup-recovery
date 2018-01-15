@@ -7,7 +7,7 @@ echo "Updating Homebrew..."
 brew update
 
 echo "Installing NodeJS..."
-brew install node
+brew install node nvm
 
 echo "Installing Applications..."
 brew cask install google-chrome firefox

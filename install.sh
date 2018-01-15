@@ -55,5 +55,4 @@ brew cask install dropbox appdelete sketch skitch vlc franz
 
 echo "Downloading required software..."
 curl -O https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg
-curl -O https://evernote.s3.amazonaws.com/skitch/mac/release/Skitch-2.8.zip
 curl -O https://mongohub.s3.amazonaws.com/MongoHub.zip

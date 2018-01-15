@@ -37,7 +37,7 @@ echo "Installing Meteor..."
 curl https://install.meteor.com/ | sh
 
 echo "Installing Node modules..."
-npm install -g nodemon gulp grunt mup iron-meteor bower
+npm install -g nodemon gulp gulp-cli grunt mup bower
 
 echo "Installing ZSH..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

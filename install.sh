@@ -21,9 +21,6 @@ code --install-extension EditorConfig.EditorConfig PeterJausovec.vscode-docker Q
 echo "Installing Communication Apps..."
 brew cask install zoomus skype
 
-echo "Installing Atom packages..."
-apm install atom-beautify color-picker emmet es6-javascript file-icons jshint language-babel linter linter-eslint merge-conflicts minimap monokai prettier-atom seti-icons wakatime
-
 echo "Installing AWS CLI..."
 brew install awscli awsebcli
 
